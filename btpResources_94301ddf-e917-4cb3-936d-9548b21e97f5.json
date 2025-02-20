@@ -1,0 +1,129 @@
+{
+  "BtpResources": [
+    {
+      "Name": "subaccount",
+      "Values": [
+        "IAS"
+      ]
+    },
+    {
+      "Name": "entitlements",
+      "Values": [
+        "secure-login-service_default",
+        "service-manager_container",
+        "connectivity_connectivity_proxy",
+        "content-agent_application",
+        "credstore_proxy",
+        "html5-apps-repo_app-runtime",
+        "print_receiver",
+        "service-manager_global-offerings-audit",
+        "application-logs_lite",
+        "auditlog-management_default",
+        "autoscaler_standard",
+        "feature-flags_lite",
+        "html5-apps-repo_app-host",
+        "mdo-one-mds-master_standard",
+        "sap-identity-services-onboarding_default",
+        "xsuaa_application",
+        "connectivity_lite",
+        "content-agent-ui_free",
+        "destination_lite",
+        "one-mds_sap-integration",
+        "service-manager_service-operator-access",
+        "xsuaa_space",
+        "cias_oauth2",
+        "identity_application",
+        "xsuaa_broker",
+        "auditlog-viewer_free",
+        "cias_standard",
+        "one-mds-master_standard",
+        "service-manager_subaccount-admin",
+        "auditlog-api_default",
+        "saas-registry_application",
+        "xsuaa_apiaccess",
+        "content-agent_standard",
+        "feature-flags-dashboard_dashboard",
+        "feature-flags_standard",
+        "service-manager_subaccount-audit"
+      ]
+    },
+    {
+      "Name": "environment-instances",
+      "Values": [
+        "cloudfoundry"
+      ]
+    },
+    {
+      "Name": "subscriptions",
+      "Values": [
+        "sap-identity-services-onboarding_default",
+        "secure-login-service_default",
+        "auditlog-viewer_free"
+      ]
+    },
+    {
+      "Name": "trust-configurations",
+      "Values": [
+        "sap.custom",
+        "sap.default"
+      ]
+    },
+    {
+      "Name": "roles",
+      "Values": [
+        "application_destination_administrator",
+        "application_destination_viewer",
+        "application_subscriptions_viewer",
+        "application_frontend_developer",
+        "application_frontend_viewer",
+        "auditlog_auditor",
+        "auditlog_auditor",
+        "cloud_connector_administrator",
+        "cloud_connector_auditor",
+        "destination_administrator",
+        "destination_administrator_instance",
+        "destination_certificate_administrator",
+        "destination_certificate_instance_administrator",
+        "destination_certificate_instance_viewer",
+        "destination_certificate_viewer",
+        "destination_configuration_administrator",
+        "destination_configuration_instance_administrator",
+        "destination_configuration_instance_viewer",
+        "destination_configuration_viewer",
+        "destination_subaccount_trust_administrator",
+        "destination_subaccount_trust_viewer",
+        "destination_viewer",
+        "destination_viewer_instance",
+        "service_credentials_viewer",
+        "service_instances_viewer",
+        "subaccount_admin",
+        "subaccount_service_administrator",
+        "subaccount_service_auditor",
+        "subaccount_viewer",
+        "subaccount_service_admin",
+        "subaccount_service_viewer",
+        "user_and_role_administrator",
+        "user_and_role_auditor",
+        "userroletemplatecallback"
+      ]
+    },
+    {
+      "Name": "role-collections",
+      "Values": [
+        "cloud_connector_administrator",
+        "connectivity_and_destination_administrator",
+        "destination_administrator",
+        "saipem_-_audit_log_service",
+        "subaccount_administrator",
+        "subaccount_service_administrator",
+        "subaccount_viewer"
+      ]
+    },
+    {
+      "Name": "security-settings",
+      "Values": [
+        "94301ddf-e917-4cb3-936d-9548b21e97f5"
+      ]
+    }
+  ]
+}
